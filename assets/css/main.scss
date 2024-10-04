@@ -107,8 +107,13 @@ img {
   text-align: center;
   display: flex;
   justify-content: center;
-  align-items: end;
   column-gap: 30px;
+  flex-direction: column;
+  @include device-size(tablet-portrait) {
+    font-size: 1.6rem;
+    flex-direction: row;
+    align-items: end;
+  }
 
   .logo {
     margin-bottom: -8px;
@@ -118,16 +123,24 @@ img {
   }
 
   .event {
-    text-align: left;
+    text-align: center;
     padding-bottom: 10px;
+    @include device-size(tablet-portrait) {
+      text-align: left;
+    }
     h1 {
-      font-size: 1.8rem;
+      font-size: 1.4rem;
       margin-bottom: 5px;
+      @include device-size(tablet-portrait) {
+        font-size: 1.8rem;
+      }
     }
 
     span {
+      display: flex;
+      flex-direction: column;
       font-size: 1rem;
-      line-height: 1.6;
+      line-height: 1.4;
     }
   }
 }
@@ -162,6 +175,7 @@ img {
     font-size: 1.2rem;
     font-weight: 600;
     color: lighten($primary-color, 5%);
+    margin-bottom: 5px;
 
     @include device-size(tablet-landscape) {
       font-size: 1.4rem;
@@ -201,6 +215,53 @@ img {
     @include device-size(tablet-portrait) {
       font-size: 1.1rem;
     }
+  }
+}
+
+// Styles for input fields
+.user-details {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  @include device-size(tablet-landscape) {
+    flex-direction: row;
+  }
+  &-item {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    input {
+      max-width: 350px;
+      padding: 12px;
+      margin-bottom: 5px;
+      border: 2px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+      transition: all 0.3s ease;
+      
+  
+      &:focus {
+        outline: none;
+        border-color: $primary-color;
+        @include box-shadow-generator(0, 0, 0, 3px, rgba($primary-color, 0.2));
+      }
+  
+      &::placeholder {
+        color: #999;
+      }
+    }
+
+    label {
+      text-align: left;
+      font-weight: 500;
+      font-size: 0.9em;
+      margin-bottom: 3px;
+      color: $primary-color;
+    }
+
   }
 }
 
@@ -305,49 +366,6 @@ img {
   }
 }
 
-// Styles for input fields
-.user-details {
-  display: flex;
-  align-items: center;
-  margin-bottom: 30px;
-  gap: 15px;
-  justify-content: center;
-
-  &-item {
-    display: flex;
-    flex-direction: column;
-    font-family: 'Poppins', sans-serif;
-    input {
-      max-width: 350px;
-      padding: 12px;
-      margin-bottom: 5px;
-      border: 2px solid #ccc;
-      border-radius: 6px;
-      font-size: 16px;
-      transition: all 0.3s ease;
-      
-  
-      &:focus {
-        outline: none;
-        border-color: $primary-color;
-        @include box-shadow-generator(0, 0, 0, 3px, rgba($primary-color, 0.2));
-      }
-  
-      &::placeholder {
-        color: #999;
-      }
-    }
-
-    label {
-      text-align: left;
-      font-weight: 500;
-      font-size: 0.9em;
-      margin-bottom: 3px;
-      color: $primary-color;
-    }
-
-  }
-}
 
 // Responsive adjustments
 @include device-size(phone) {
