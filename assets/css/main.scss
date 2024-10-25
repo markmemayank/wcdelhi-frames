@@ -1,10 +1,11 @@
 body, html {
     margin: 0;
     font-size: 16px;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Rubik", sans-serif;
     background-color: #f1f1f1;
     color: #333;
 }
+
 
 img {
     max-width: 100%;
@@ -24,7 +25,7 @@ img {
 
 .btn-primary {
     color: #fff;
-    background-color: cadetblue;
+    background-color: #25648f;
     font-size: 1rem;
     padding: .6em 1.5em;
     border-radius: 4px;
@@ -52,7 +53,7 @@ img {
 
 .btn-upload {
     color: #fff;
-    background-color: cadetblue;
+    background-color: #25648f;
     font-size: 1rem;
     padding: .8em 1.6em;
     border-radius: 4px;
@@ -67,7 +68,7 @@ img {
 }
 
 .header {
-    background-color: cadetblue;
+    background-color: #25648f;
     color: #fff;
     padding: 20px;
     padding-bottom: 0;
@@ -154,7 +155,7 @@ img {
 }
 
 .section-heading h3 {
-    color: cadetblue;
+    color: #25648f;
     font-size: 1.2rem;
     font-weight: 600;
     color: #465f6a;
@@ -181,7 +182,7 @@ img {
 .hero h1 {
     font-size: 1.8rem;
     margin-bottom: 25px;
-    color: cadetblue;
+    color: #25648f;
 }
 
 @media (min-width: 420px) {
@@ -226,7 +227,7 @@ img {
 .user-details-item {
     display: flex;
     flex-direction: column;
-    font-family: "Poppins", sans-serif;
+    font-family: "Rubik", sans-serif;
 }
 
 .user-details-item input {
@@ -241,7 +242,7 @@ img {
 
 .user-details-item input:focus {
     outline: none;
-    border-color: cadetblue;
+    border-color: #25648f;
     box-shadow: 0 0 0 3px rgba(60, 81, 91, .2);
 }
 
@@ -254,7 +255,7 @@ img {
     font-weight: 500;
     font-size: .9em;
     margin-bottom: 3px;
-    color: cadetblue;
+    color: #25648f;
 }
 
 .app {
@@ -282,7 +283,7 @@ img {
 }
 
 #framesContainer img.selected {
-    border-color: cadetblue;
+    border-color: #25648f;
     box-shadow: 0 0 0 4px rgba(60, 81, 91, .3);
 }
 
@@ -323,7 +324,7 @@ img {
 }
 
 .footer {
-    background-color: cadetblue;
+    background-color: #25648f;
     color: #fff;
     text-align: center;
     padding: 30px 20px;
