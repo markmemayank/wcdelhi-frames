@@ -1,12 +1,12 @@
-# WordCamp Kerala 2024 Profile Picture Generator
+# WordCamp Delhi 2024 Profile Picture Generator
 
-Generate a customized profile picture for WordCamp Kerala 2024 by uploading your own picture, adding your details, and applying a predefined frame.
+Generate a customized profile picture for WordCamp Delhi 2024 by uploading your own picture, adding your details, and applying a predefined frame.
 
 ## Features
 
 - Upload your own picture to generate a personalized profile picture
 - Enter your name and company details
-- Apply a WordCamp Kerala 2024 frame to your picture
+- Apply a WordCamp Delhi 2024 frame to your picture
 - Preview your customized profile picture
 - Download the generated profile picture
 - Share the profile picture directly (using Web Share API where supported)
@@ -15,11 +15,11 @@ Generate a customized profile picture for WordCamp Kerala 2024 by uploading your
 
 1. Clone the repository:
    ```
-   git clone https://github.com/ajithrn/wckerala-frames.git
+   git clone https://github.com/ajithrn/wcDelhi-frames.git
    ```
 2. Navigate to the project directory:
    ```
-   cd wckerala-frames
+   cd wcDelhi-frames
    ```
 3. Open `index.html` in your web browser or set up a local server to run the project.
 
@@ -58,7 +58,7 @@ This project uses modern web technologies and is compatible with the latest vers
 
 ## Credits
 
-- [WordCamp Kerala](https://kerala.wordcamp.org/2024/) for the event branding and frame design.
+- [WordCamp Delhi](https://Delhi.wordcamp.org/2024/) for the event branding and frame design.
 - Developed by [Ajith](https://ajithrn.com)
 
 ## License
@@ -67,8 +67,8 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contributing
 
-Contributions, issues, and feature requests are welcome. Feel free to check [issues page](https://github.com/ajithrn/wckerala-frames/issues) if you want to contribute.
+Contributions, issues, and feature requests are welcome. Feel free to check [issues page](https://github.com/ajithrn/wcDelhi-frames/issues) if you want to contribute.
 
 ## Support
 
-If you have any questions or need help with the profile picture generator, please open an issue or contact the WordCamp Kerala organizers.
+If you have any questions or need help with the profile picture generator, please open an issue or contact the WordCamp Delhi organizers.
