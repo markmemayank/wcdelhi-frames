@@ -60,6 +60,7 @@ This project uses modern web technologies and is compatible with the latest vers
 
 - [WordCamp Delhi](https://Delhi.wordcamp.org/2024/) for the event branding and frame design.
 - Developed by [Ajith](https://ajithrn.com)
+- Modified by [Mayank](https://markmemayank.com/)
 
 ## License
 
